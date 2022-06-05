@@ -5,7 +5,7 @@ on:
     paths-ignore:
       - 'examples/**'
       - 'LICENSE'
-      - '**.md'
+      - 'README.md'
     tags:
       - 'v*'
 

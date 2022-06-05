@@ -1,11 +1,5 @@
 on:
-  pull_request:
-    branches: 
-      - main
-    paths-ignore:
-      - 'examples/**'
-      - 'LICENSE'
-      - 'README.md'
+  push:
     tags:
       - 'v*'
 

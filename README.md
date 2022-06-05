@@ -1,15 +1,26 @@
-# azure-terraform-[module_name]
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/n3tlix/azure-terraform-template/Release?label=Testing&logo=GitHub)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/n3tlix/azure-terraform-template?label=Release)
 
-Create a simple [module_full_name] in Azure
+## Version compatibility
 
-## Usage in Terraform 0.13
-```hcl
-module "example" {
-  source  = "github.com/N3tLiX/modules//[module_folder]"
-}
-```
+| Module version | Terraform version | AzureRM version |
+| -------------- | ----------------- | --------------- |
+| >= x.x.x       | >= x.x.x          | >= x.x.x        |
 
-Find an example, and more documentation at https://github.com/n3tlix/examples
+## Parameters
+
+The following parameters are supported:
+
+| Name                       | Description                                                        |        Type         | Default | Required |
+| -------------------------- | ------------------------------------------------------------------ | :-----------------: | :-----: | :------: |
+
+## Outputs
+
+The following outputs are exported:
+
+| Name                   | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+
 ## Authors
 
 Originally created by [Patrick Hayo](http://github.com/adminph-de)

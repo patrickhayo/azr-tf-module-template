@@ -37,3 +37,4 @@ override.tf.json
 .DS_Store
 .config.yaml
 .config.sh
+.secret.yaml

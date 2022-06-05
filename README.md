@@ -1,5 +1,5 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/n3tlix/azure-terraform-template/Release?label=Testing&logo=GitHub)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/n3tlix/azure-terraform-template?label=Release)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/N3tLiX/azure-terraform-template/Release?label=Testing&logo=GitHub)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/N3tLiX/azure-terraform-template?label=Release)
 
 ## Version compatibility
 

@@ -1,15 +1,16 @@
+name: 'Create Release'
 on:
   pull_request:
     branches: 
       - main
     paths-ignore:
       - 'examples/**'
+      - 'tests/**'
       - 'LICENSE'
       - 'README.md'
+  push:
     tags:
       - 'v*'
-
-name: Create Release
 
 jobs:
   build:

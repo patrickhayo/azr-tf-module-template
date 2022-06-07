@@ -1,4 +1,5 @@
 name: Create Release Branch
+
 on:
   workflow_dispatch:
     inputs:
@@ -48,8 +49,6 @@ jobs:
            Hi!
            This PR was created in response workflow running.
            I've updated the version name and code commit: ${{ steps.make-commit.outputs.commit }}.
-    - name: Push new develop branch
-      run: git push origin release/v${{ github.event.inputs.versionName }}
     - name: Create pull request to develop
       uses: thomaseizinger/create-pull-request@1.0.0
       with:

@@ -6,7 +6,7 @@ on:
       - main
     paths-ignore:
       - 'examples/**'
-      - 'tests/**'
+      - 'testing/**'
       - 'LICENSE'
       - 'README.md'
       - '.gitignore'

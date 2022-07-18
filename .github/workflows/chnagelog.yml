@@ -1,4 +1,4 @@
-name: 'Create Release'
+name: 'Chnagelog'
 
 on:
   pull_request:
